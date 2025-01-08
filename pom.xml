@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-io</groupId>
   <artifactId>commons-io</artifactId>
-  <version>2.11.0</version>
+  <version>2.11.0+sp1</version>
   <name>Apache Commons IO</name>
 
   <inceptionYear>2002</inceptionYear>
@@ -355,6 +355,7 @@ file comparators, endian transformation classes, and much more.
               <exclude>src/test/resources/**/*.bin</exclude>
               <exclude>src/test/resources/dir-equals-tests/**</exclude>
               <exclude>test/**</exclude>
+              <exclude>.github/**</exclude>
             </excludes>
           </configuration>
         </plugin>
