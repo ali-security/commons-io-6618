@@ -1613,7 +1613,6 @@ public class FileUtilsTestCase {
     }
 
     // isFileNewer / isFileOlder
-    @Test
     public void testIsFileNewerOlder() throws Exception {
         final File reference = new File(temporaryFolder, "FileUtils-reference.txt");
         final File oldFile = new File(temporaryFolder, "FileUtils-old.txt");

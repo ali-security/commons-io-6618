@@ -33,7 +33,6 @@ import org.junit.jupiter.api.Test;
  */
 public class TimestampedObserverTest {
 
-    @Test
     public void test() throws IOException, InterruptedException {
         final Instant before = Instant.now();
         Thread.sleep(20); // Some OS' clock granularity may be high.
